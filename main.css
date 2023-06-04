@@ -32,6 +32,7 @@ body {
 
     /* background: color image repeat position/size; */
     background: var(--bg-url) no-repeat top center/cover;
+    height: 100vb;
 }
 
 body * {
@@ -82,6 +83,10 @@ body * {
     
     top:-19%;
     transform: translateY(50%);
+}
+
+#switch button:hover {
+    outline: 8px solid var(--highlight-color);
 }
 
 .light #switch button {
